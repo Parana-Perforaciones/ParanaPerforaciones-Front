@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o root ocupe toda a altura da tela */
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* A altura mínima do contêiner principal */
+  }
+  
+  .content-container {
+    flex: 1; /* Faz com que o conteúdo preencha o espaço disponível */
+  }
+  
+  footer {
+    margin-top: auto; /* Garante que o rodapé seja empurrado para o final */
+  }
+  
