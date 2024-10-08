@@ -1,7 +1,9 @@
 import React from 'react';
-import { Button, Box, Typography } from '@mui/material';
+import { Button, Typography } from '@mui/material';
 import DownloadIcon from '@mui/icons-material/Download';
 import Texto from '../components/Textos/inicio';
+import SlideShow from '../components/Slide/index';
+
 
 const Budget: React.FC = () => {
 
@@ -14,8 +16,12 @@ const Budget: React.FC = () => {
   };
 
   return (
-    <Box sx={{ textAlign: 'center', padding: 4 }}>
-      <Texto/>
+    <div>
+      <h1>Presupuesto</h1>
+      <SlideShow />
+
+      <Texto />
+
       <Typography variant="h4" sx={{ mb: 4 }}>
         Presupuesto
       </Typography>
@@ -28,7 +34,8 @@ const Budget: React.FC = () => {
       >
         Descargar PDF
       </Button>
-    </Box>
+    </div>
+
   );
 };
 

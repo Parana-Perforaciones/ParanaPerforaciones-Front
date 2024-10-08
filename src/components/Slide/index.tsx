@@ -6,7 +6,6 @@ import 'swiper/css/navigation';
 import 'swiper/swiper-bundle.css'; 
 import { Pagination, Autoplay } from 'swiper/modules';
 import styles from "./Slide.module.scss";
-import slide from '../../asset/slide.png'
 
 function Slide() {
     return (
@@ -23,8 +22,12 @@ function Slide() {
                 }}
                 modules={[Pagination, Autoplay]} 
             >
-                <SwiperSlide><img src={slide} alt="Slide 1" /></SwiperSlide>
-                <SwiperSlide><img src={slide} alt="Slide 2" /></SwiperSlide>
+                <SwiperSlide>
+                    <img src="https://via.placeholder.com/400x300" alt="Slide 1" style={{ width: '100%', height: 'auto' }} />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src="https://via.placeholder.com/400x300" alt="Slide 2" style={{ width: '100%', height: 'auto' }} />
+                </SwiperSlide>
             </Swiper>
         </div>
     );
