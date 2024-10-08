@@ -4,6 +4,7 @@ import Timeline from '../components/Linha/index';
 import Texto from '../components/Textos/inicio';
 import FAQ from '../components/FAQ';
 import SlideShow from '../components/Slide/index'; 
+import CardPostos from '../components/CardsFotos';
 
 const Inicio = () => {
   return (
@@ -13,6 +14,7 @@ const Inicio = () => {
       <MiniBanner />
       <Texto />
       <Timeline />
+      <CardPostos/>
       <FAQ />
     </div>
   );
