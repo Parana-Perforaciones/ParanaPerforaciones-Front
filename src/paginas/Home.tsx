@@ -1,13 +1,19 @@
 import React from 'react';
 import MiniBanner from '../components/MiniBanner/index';
-import Timeline from '../components/Linha/index'
+import Timeline from '../components/Linha/index';
+import Texto from '../components/Textos/inicio';
+import FAQ from '../components/FAQ';
+import SlideShow from '../components/Slide/index'; 
 
 const Inicio = () => {
   return (
     <div>
       <h1>Inicio</h1>
+      <SlideShow />  
       <MiniBanner />
-      <Timeline/>
+      <Texto />
+      <Timeline />
+      <FAQ />
     </div>
   );
 };
