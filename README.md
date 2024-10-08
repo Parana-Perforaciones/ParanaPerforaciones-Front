@@ -1,46 +1,32 @@
-# Getting Started with Create React App
+# Paraná Perforaciones - Página de Información sobre Pozos Artesianos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Objetivo de la Landing Page
 
-## Available Scripts
+La página web de **Paraná Perforaciones** tiene como objetivo proporcionar información detallada y precisa sobre la **perforación de pozos artesianos** en la región de **Ciudad del Este, Paraguay**. Nuestro principal enfoque es educar y guiar a los clientes potenciales sobre el proceso, los beneficios y los servicios que ofrecemos para la construcción de pozos artesianos.
 
-In the project directory, you can run:
+## Qué Ofrecemos
 
-### `npm start`
+En **Paraná Perforaciones**, nos especializamos en la perforación y construcción de pozos artesianos para abastecimiento de agua potable en propiedades residenciales, comerciales y agrícolas. La página de aterrizaje está diseñada para ofrecer:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Información completa sobre pozos artesianos**: Explicamos qué es un pozo artesiano, cómo se construye, sus beneficios y por qué es una opción confiable para el abastecimiento de agua en Ciudad del Este.
+- **Servicios de perforación profesional**: Detallamos los servicios que ofrecemos, desde estudios de suelo hasta la instalación y mantenimiento del pozo.
+- **Guía para clientes**: Incluimos una guía paso a paso sobre cómo iniciar el proceso de perforación, los permisos necesarios y el tiempo estimado para cada proyecto.
+- **Formulario de contacto**: Proporcionamos un formulario sencillo para que los usuarios interesados puedan solicitar cotizaciones, consultas y más información de manera rápida y eficiente.
+- **Testimonios y casos de éxito**: Compartimos historias de clientes satisfechos que ya han construido pozos con **Paraná Perforaciones**, mostrando la calidad y confiabilidad de nuestro trabajo.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Por qué Elegir Paraná Perforaciones
 
-### `npm test`
+1. **Experiencia comprobada**: Contamos con años de experiencia en la perforación de pozos artesianos en la región de Ciudad del Este y alrededores.
+2. **Equipos modernos y tecnología avanzada**: Utilizamos maquinaria y técnicas de última generación para garantizar perforaciones eficientes y seguras.
+3. **Cumplimiento de normativas locales**: Todos nuestros proyectos se realizan cumpliendo con las normativas y regulaciones del Paraguay, garantizando seguridad y durabilidad.
+4. **Asesoría personalizada**: Ofrecemos un servicio de asesoría gratuita para evaluar las necesidades específicas de cada cliente y proponer las mejores soluciones.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contacto
 
-### `npm run build`
+Si desea obtener más información sobre nuestros servicios o necesita un presupuesto para la perforación de un pozo artesiano en **Ciudad del Este**, puede contactarnos a través del formulario en la landing page o mediante las siguientes opciones:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Teléfono**: +595 [Número de teléfono]
+- **Correo electrónico**: [correo@ejemplo.com]
+- **Dirección**: [Dirección de la oficina en Ciudad del Este]
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Estamos comprometidos en ofrecerle la mejor solución para el acceso a agua potable a través de pozos artesianos de alta calidad y con la garantía de **Paraná Perforaciones**.
