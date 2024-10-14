@@ -75,16 +75,6 @@ const CardPostos: React.FC = () => {
             title: 'Manutenção de Poços',
             description: 'Serviços de manutenção para garantir a durabilidade e a eficiência de seu poço artesiano.',
         },
-        {
-            image: 'https://via.placeholder.com/400x300',
-            title: 'Manutenção de Poços',
-            description: 'Serviços de manutenção para garantir a durabilidade e a eficiência de seu poço artesiano.',
-        },
-        {
-            image: 'https://via.placeholder.com/400x300',
-            title: 'Manutenção de Poços',
-            description: 'Serviços de manutenção para garantir a durabilidade e a eficiência de seu poço artesiano.',
-        },
 
     ];
 

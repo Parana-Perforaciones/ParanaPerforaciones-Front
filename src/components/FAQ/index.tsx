@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from 'react'; 
 import Accordion from '@mui/material/Accordion';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
@@ -10,13 +10,12 @@ type Panel = string | false;
 export default function FAQ() {
   const [expanded, setExpanded] = React.useState<Panel>(false);
 
-  // Definindo os tipos dos parâmetros
   const handleChange = (panel: string) => (event: React.SyntheticEvent, isExpanded: boolean) => {
     setExpanded(isExpanded ? panel : false);
   };
 
   return (
-    <div>
+    <div style={{ marginTop: '80px' }}> {/* Adicionando margem superior */}
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}

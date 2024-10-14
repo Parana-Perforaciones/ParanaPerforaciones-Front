@@ -4,7 +4,6 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import About from './paginas/About';
 import Budget from './paginas/Budget';
-import Contacto from './paginas/Contact';
 import Home from './paginas/Home';
 
 const App = () => {
@@ -17,7 +16,6 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/sobre" element={<About />} />
-            <Route path="/contacto" element={<Contacto />} />
             <Route path="/presupuesto" element={<Budget />} />
           </Routes>
         </div>

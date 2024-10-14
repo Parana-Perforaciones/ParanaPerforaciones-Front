@@ -1,6 +1,7 @@
 import React from 'react';
 import Texto from '../components/Textos/inicio';
 import SlideShow from '../components/Slide/index'; 
+import Timeline from '../components/Linha/index';
 
 const About = () => {
   return (
@@ -8,6 +9,8 @@ const About = () => {
       <h1>Sobre</h1>
       <SlideShow />  
       <Texto />
+      <Timeline />
+
     </div>
   );
 };

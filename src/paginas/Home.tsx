@@ -1,6 +1,5 @@
 import React from 'react';
 import MiniBanner from '../components/MiniBanner/index';
-import Timeline from '../components/Linha/index';
 import Texto from '../components/Textos/inicio';
 import FAQ from '../components/FAQ';
 import SlideShow from '../components/Slide/index'; 
@@ -13,7 +12,6 @@ const Inicio = () => {
       <SlideShow />  
       <MiniBanner />
       <Texto />
-      <Timeline />
       <CardPostos/>
       <FAQ />
     </div>
