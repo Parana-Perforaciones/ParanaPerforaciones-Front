@@ -6,7 +6,6 @@ import Timeline from '../components/Linha/index';
 const About = () => {
   return (
     <div>
-      <h1>Sobre</h1>
       <SlideShow />  
       <Texto />
       <Timeline />

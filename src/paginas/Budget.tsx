@@ -8,7 +8,6 @@ const Budget: React.FC = () => {
 
   return (
     <div>
-      <h1>Presupuesto</h1>
       <SlideShow />
       <CardPostos/>
       <Texto />

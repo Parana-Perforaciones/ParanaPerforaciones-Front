@@ -7,7 +7,6 @@ import SlideShow from '../components/Slide/index';
 const Inicio = () => {
   return (
     <div>
-      <h1>Inicio</h1>
       <SlideShow />  
       <MiniBanner />
       <Texto />

@@ -13,7 +13,6 @@ const CustomConnector = styled(StepConnector)(({ theme }) => ({
 const steps = [
   {
     label: 'Estudios de Suelo',
-    description: 'Realizamos estudios de suelo para garantizar la viabilidad del pozo artesiano en el terreno.',
   },
   {
     label: 'Perforación Inicial',
@@ -39,7 +38,16 @@ const steps = [
 
 const Timeline: React.FC = () => {
   return (
-    <Box sx={{ width: '100%', padding: 4 }}>
+    <Box 
+      sx={{ 
+        width: '100%', 
+        maxWidth: '90vw', // Limitar a largura máxima à largura da janela
+        margin: '0 auto', // Centralizar o conteúdo
+        paddingX: { xs: 2, md: 4 }, // Padding horizontal ajustável
+        paddingY: 4, // Padding vertical constante
+        overflowX: 'hidden', // Esconder qualquer overflow horizontal
+      }}
+    >
       {/* Stepper com conector customizado */}
       <Stepper alternativeLabel activeStep={-1} connector={<CustomConnector />}>
         {steps.map((step, index) => (
@@ -48,12 +56,12 @@ const Timeline: React.FC = () => {
               sx={{
                 '& .MuiStepLabel-label': {
                   color: '#000000', // Cor preta para o texto
-                  fontSize: '1rem', // Tamanho da fonte
+                  fontSize: { xs: '0.8rem', md: '1rem' }, // Tamanho da fonte responsivo
                   fontWeight: 'bold', // Texto em negrito
                 },
                 '& .MuiSvgIcon-root': {
                   color: '#FFD700', // Cor amarela para os ícones dos pontos
-                  fontSize: '2rem', // Aumenta o tamanho dos ícones dos pontos
+                  fontSize: { xs: '1.5rem', md: '2rem' }, // Tamanho responsivo dos ícones
                 },
               }}
             >
@@ -64,20 +72,32 @@ const Timeline: React.FC = () => {
       </Stepper>
 
       {/* Informações detalhadas abaixo de cada ponto */}
-      <Box sx={{ display: 'flex', justifyContent: 'space-between', paddingTop: 4 }}>
+      <Box 
+        sx={{ 
+          display: 'flex', 
+          justifyContent: 'space-between', 
+          paddingTop: 4, 
+          flexWrap: 'wrap', // Permitir que os itens se quebrem em linhas
+          gap: 2, // Espaçamento entre os itens
+          width: '100%', // Garantir que a largura não exceda a da página
+        }}
+      >
         {steps.map((step, index) => (
           <Box
             key={index}
             sx={{
-              width: '16%',
+              width: { xs: '100%', sm: '45%', md: '16%' }, // Ajustar largura conforme o tamanho da tela
               textAlign: 'center',
               color: '#000000', // Cor preta para o texto
+              padding: 1, // Adicionar padding para espaçamento
             }}
           >
-            <Typography variant="body1" sx={{ fontWeight: 'bold' }}>
+            <Typography variant="body1" sx={{ fontWeight: 'bold', fontSize: { xs: '0.9rem', md: '1rem' } }}>
               {step.label}
             </Typography>
-            <Typography variant="body2">{step.description}</Typography>
+            <Typography variant="body2" sx={{ fontSize: { xs: '0.75rem', md: '0.875rem' } }}>
+              {step.description}
+            </Typography>
           </Box>
         ))}
       </Box>
