@@ -3,7 +3,6 @@ import MiniBanner from '../components/MiniBanner/index';
 import Texto from '../components/Textos/inicio';
 import FAQ from '../components/FAQ';
 import SlideShow from '../components/Slide/index'; 
-import CardPostos from '../components/CardsFotos';
 
 const Inicio = () => {
   return (
@@ -12,7 +11,6 @@ const Inicio = () => {
       <SlideShow />  
       <MiniBanner />
       <Texto />
-      <CardPostos/>
       <FAQ />
     </div>
   );
